@@ -264,7 +264,7 @@ class AvitoParse:
                 headless=True if not self.debug_mode else False,
                 page_load_strategy="eager",
                 block_images=True,
-                set_selenium_speed=10  # Adjust timeout here
+                set_speed=10  # Adjust timeout here
                 #skip_js_waits=True,
                 ) as self.driver:
             try:
